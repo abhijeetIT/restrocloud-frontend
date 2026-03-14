@@ -1,0 +1,6 @@
+.wrap { max-width: 680px; }
+.profile_grid { display: flex; gap: 18px; align-items: flex-start; }
+.profile_avatar { width: 64px; height: 64px; background: var(--primary); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display',serif; font-size: 28px; font-weight: 800; color: #fff; flex-shrink: 0; box-shadow: 0 4px 14px rgba(230,57,70,.35); }
+.profile_name   { font-family: 'Playfair Display',serif; font-size: 22px; font-weight: 800; color: var(--secondary); margin-bottom: 8px; }
+.profile_detail { font-size: 13px; color: var(--muted); margin-bottom: 3px; font-weight: 500; }
+.danger_text { font-size: 13px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }

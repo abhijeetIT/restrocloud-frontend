@@ -1,0 +1,11 @@
+.sum_card { background: var(--card); border: 1.5px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center; cursor: pointer; transition: all .18s; font-family: inherit; box-shadow: var(--shadow); }
+.sum_card:hover { border-color: var(--primary); transform: translateY(-2px); }
+.sum_active { border-color: var(--primary) !important; background: rgba(230,57,70,.05); }
+.sum_num   { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 800; color: var(--secondary); }
+.sum_label { font-size: 11px; color: var(--muted); margin-top: 5px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 14px; }
+.table_card { background: var(--card); border: 2px solid var(--border); border-radius: var(--radius); padding: 20px 14px; text-align: center; transition: transform .2s, box-shadow .2s; display: flex; flex-direction: column; align-items: center; gap: 8px; box-shadow: var(--shadow); }
+.table_card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.table_num  { font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 800; color: var(--secondary); }
+.table_cap  { font-size: 12px; color: var(--muted); font-weight: 500; }
+.table_actions { display: flex; gap: 6px; margin-top: 4px; }
