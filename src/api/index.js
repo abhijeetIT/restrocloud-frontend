@@ -79,3 +79,9 @@ export const analyticsApi = {
   summary: () => client.get('/api/analytics/summary'),
 }
 export default client
+
+export const otpApi = {
+  send:   data => client.post('/auth/send-otp', data),   // { email, purpose }
+  verify: data => client.post('/auth/verify-otp', data), // { email, otp }
+  changePassword: data => client.post('/auth/changePassword', data), // { email, password }
+}
